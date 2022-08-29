@@ -1,15 +1,20 @@
-import { LiveReload, Outlet } from "@remix-run/react";
+import {
+  Links,
+  LiveReload,
+  Outlet,
+} from "@remix-run/react";
 
-export default function App()  {
+export default function App() {
   return (
     <html lang="en">
       <head>
         <meta charSet="utf-8" />
         <title>Remix: So great, it's funny!</title>
+        <Links />
       </head>
       <body>
-        <Outlet /> {/* Position the children (routes) */}
-        <LiveReload /> {/* Auto-refresh during development */}
+        <Outlet />
+        <LiveReload />
       </body>
     </html>
   );
