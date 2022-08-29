@@ -1,10 +1,9 @@
 export default function JokesIndexRoute() {
     return (
       <div>
-        <p>Here's a random joke:</p>
+        <p>Joke name</p>
         <p>
-          I was wondering why the frisbee was getting bigger,
-          then it hit me.
+          Hello, Joke!
         </p>
       </div>
     );
